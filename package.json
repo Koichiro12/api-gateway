@@ -1,0 +1,19 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "Simple API-Gateway menggunakan express dan proxymiddleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Choirul Muhammad Dhani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
