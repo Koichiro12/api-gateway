@@ -6,6 +6,7 @@ const port = 3000
 
 //Contoh simple Proxy middleware for API
 // microservice api bisa anda buat menggunakan node js 
+//Example Microservice here https://github.com/Koichiro12/api-microservices
 app.use('/api',createProxyMiddleware({
     target:'http://localhost:3001',
     changeOrigin:true,
