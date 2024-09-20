@@ -5,7 +5,7 @@ const { createProxyMiddleware }  = require('http-proxy-middleware')
 const port = 3000
 
 //Contoh simple Proxy middleware for API
-// microservice api bisa anda buat menggunakan
+// microservice api bisa anda buat menggunakan node js 
 app.use('/api',createProxyMiddleware({
     target:'http://localhost:3001',
     changeOrigin:true,
